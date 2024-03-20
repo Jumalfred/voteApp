@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "VoteApp",
+    "slug": "VoteApp",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/images/favicon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/images/favicon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "Alfred.apk"
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png"
+    }
+  }
+}
